@@ -1,5 +1,5 @@
 {
-  "brand": "Ember & Oak",
+  "brand": "Monthicha’s cafe",
   "nav": [
     { "label": "Menu", "href": "#menu" },
     { "label": "Our Story", "href": "#story" },
@@ -59,7 +59,7 @@
   },
   "story": {
     "heading": "Our story",
-    "body": "Ember & Oak started in 2018 as a single roaster in a garage. Today we run a café and roastery from a converted timber yard, but the idea hasn't changed — buy great green coffee, roast it carefully, and serve it to people we know by name."
+    "body": "Monthicha’s cafe started in 2018 as a single roaster in a garage. Today we run a café and roastery from a converted timber yard, but the idea hasn't changed — buy great green coffee, roast it carefully, and serve it to people we know by name."
   },
   "visit": {
     "heading": "Come say hello",
@@ -73,6 +73,6 @@
   },
   "footer": {
     "tagline": "Roasted in Brooklyn. Brewed with love.",
-    "copyright": "© 2026 Ember & Oak Coffee Co."
+    "copyright": "© 2026 Monthicha’s cafe"
   }
 }
