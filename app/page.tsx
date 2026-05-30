@@ -1,14 +1,23 @@
-import content from "../content.json";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Features from "../components/Features";
+import Menu from "../components/Menu";
+import Story from "../components/Story";
+import Visit from "../components/Visit";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center p-8">
-      <h1 className="text-5xl font-semibold tracking-tight mb-4">
-        {content.heading}
-      </h1>
-      <p className="text-lg text-neutral-600 max-w-xl text-center">
-        {content.subheading}
-      </p>
-    </main>
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <Features />
+        <Menu />
+        <Story />
+        <Visit />
+      </main>
+      <Footer />
+    </>
   );
 }

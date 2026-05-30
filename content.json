@@ -1,4 +1,78 @@
 {
-  "heading": "Your site",
-  "subheading": "Edit this with a prompt to make it yours."
+  "brand": "Ember & Oak",
+  "nav": [
+    { "label": "Menu", "href": "#menu" },
+    { "label": "Our Story", "href": "#story" },
+    { "label": "Visit", "href": "#visit" }
+  ],
+  "hero": {
+    "eyebrow": "Small-batch roastery & café",
+    "heading": "Slow coffee, made with care.",
+    "subheading": "We roast in small batches and brew with patience — so every cup tastes the way the farmer intended.",
+    "primaryCta": { "label": "See the menu", "href": "#menu" },
+    "secondaryCta": { "label": "Find us", "href": "#visit" }
+  },
+  "features": [
+    {
+      "title": "Single-origin beans",
+      "body": "Sourced directly from growers in Ethiopia, Colombia and Guatemala — traceable to the farm."
+    },
+    {
+      "title": "Roasted this week",
+      "body": "Every bag leaves our roastery within seven days of roasting, at peak flavour."
+    },
+    {
+      "title": "Made by hand",
+      "body": "Our baristas pull every shot to order — no autopilot, no shortcuts."
+    }
+  ],
+  "menu": {
+    "heading": "On the menu",
+    "subheading": "A short list, done well.",
+    "sections": [
+      {
+        "title": "Espresso",
+        "items": [
+          { "name": "Espresso", "price": "$3.50", "description": "A clean double shot of our house blend." },
+          { "name": "Cortado", "price": "$4.25", "description": "Equal parts espresso and warm milk." },
+          { "name": "Flat white", "price": "$4.75", "description": "Silky microfoam over a ristretto." },
+          { "name": "Latte", "price": "$5.00", "description": "Smooth, milky, generous." }
+        ]
+      },
+      {
+        "title": "Filter & cold",
+        "items": [
+          { "name": "Pour-over", "price": "$5.50", "description": "Single-origin, brewed V60-style." },
+          { "name": "Cold brew", "price": "$5.00", "description": "Steeped 18 hours for a soft, chocolatey finish." },
+          { "name": "Iced latte", "price": "$5.25", "description": "Double shot poured over cold milk and ice." }
+        ]
+      },
+      {
+        "title": "Bakery",
+        "items": [
+          { "name": "Almond croissant", "price": "$4.50", "description": "Baked in-house every morning." },
+          { "name": "Sourdough toast", "price": "$6.00", "description": "Cultured butter and sea salt." },
+          { "name": "Banana bread", "price": "$4.00", "description": "Brown butter, walnuts, a hint of cardamom." }
+        ]
+      }
+    ]
+  },
+  "story": {
+    "heading": "Our story",
+    "body": "Ember & Oak started in 2018 as a single roaster in a garage. Today we run a café and roastery from a converted timber yard, but the idea hasn't changed — buy great green coffee, roast it carefully, and serve it to people we know by name."
+  },
+  "visit": {
+    "heading": "Come say hello",
+    "address": "42 Linden Street, Brooklyn, NY 11201",
+    "hours": [
+      { "days": "Mon – Fri", "time": "7:00 – 17:00" },
+      { "days": "Saturday", "time": "8:00 – 17:00" },
+      { "days": "Sunday", "time": "8:00 – 15:00" }
+    ],
+    "phone": "(718) 555-0142"
+  },
+  "footer": {
+    "tagline": "Roasted in Brooklyn. Brewed with love.",
+    "copyright": "© 2026 Ember & Oak Coffee Co."
+  }
 }
